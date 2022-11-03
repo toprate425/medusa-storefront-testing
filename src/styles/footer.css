@@ -1,0 +1,24 @@
+.footerBar .wrapper a {
+    padding-top: 10px;
+    color: #6d6d6d;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footerBar .wrapper a:hover {
+    text-decoration: underline;
+}
+
+.footerBar .socialWrapper {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footerBar .socialWrapper a {
+    margin-right: 15px;
+    flex: 0 auto;
+    background-color: transparent;
+    color: #474747;
+    text-decoration: underline;
+    opacity: .54;
+}
