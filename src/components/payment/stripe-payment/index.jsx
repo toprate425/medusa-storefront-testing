@@ -4,7 +4,7 @@ import React, { useMemo } from "react"
 import { useCart } from "../../../hooks/use-cart"
 import InjectableCardForm from "./injectable-card-form"
 
-const STRIPE_KEY = process.env.GATSBY_STRIPE_KEY || ""
+const STRIPE_KEY = process.env.GATSBY_STRIPE_KEY || "pk_test_51M01yrIhNwYgUAasXY4k5TlbZQKI4MGFOfNPTEMupb7JORe9keheqLuKC12fybFY1KqTyj4PB094z811BDKgHRTn00oLKkOg2e"
 const stripePromise = loadStripe(STRIPE_KEY)
 
 const StripePayment = () => {
